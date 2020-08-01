@@ -27,3 +27,5 @@ if($row == 1) {                                 //autenticação
 	header('Location: index.php');
 	exit();
 }
+
+?>
