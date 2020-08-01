@@ -98,3 +98,17 @@ border-color: yellow;
         transform: translateY(41em);
 
 	}
+
+	a{
+
+	color: white;
+	}
+
+a:hover{
+
+	color: yellow;
+
+
+}
+
+

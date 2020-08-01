@@ -11,7 +11,7 @@ body{
 
 a{
 
-	color:white;
+	color:black;
 }
 
 a:hover{
@@ -121,6 +121,11 @@ border-color: yellow;
 		text-align: center;
         transform: translateY(32em);
 
+	}
+
+	#b p{
+
+		color:black;
 	}
 
 	
