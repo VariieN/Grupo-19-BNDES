@@ -16,9 +16,10 @@ body{
      font-weight: 300;
      font-size: 30px;
 
-}
+     }
 
-.inputs{
+
+     .inputs{
 
 	width: 800px;
 	height: 500px;
@@ -33,6 +34,34 @@ body{
 	border-radius: 15px;
 	border-style: solid;
 	border-color: white;
+
+}
+
+.inputs input[type="text"], .inputs input[type="password"], .inputs input[type="email"]{
+
+	border:0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: black;
+	border:1.5px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	transition: 0.30s;
+	font:arial;
+	font-size: 14px;
+
+}
+
+.inputs input[type="text"]:focus, .inputs input[type="password"]:focus, .inputs input[type="email"]:focus{
+
+
+width: 280px;
+border-color: yellow;
+
+
 
 }
 
@@ -51,6 +80,7 @@ body{
 	font-size: 16px;
 	border-radius: 10px;
 	cursor: pointer;
+	transform: translateY(2em);
 	
 
 	}
@@ -61,33 +91,10 @@ body{
 
 	}
 
-	.select {
-
-		width: 100%;
-		overflow: hidden;
-	}
-
-	.select select {
-
-		text-align: center;
-		width: 250px;
-		height: 75px;
-		border:0;
-		background: white;
-		margin: 20px auto;
-		color: black;
-		border:1.5px solid white;
-		outline: none;
-		transition: 0.30s;
-	    font: arial;
-	    font-size: 14px;
-
-     }
-
-footer {
+	footer{
 
 		color:white;
 		text-align: center;
-        transform: translateY(40em);
+        transform: translateY(41em);
 
 	}
