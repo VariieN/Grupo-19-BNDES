@@ -1,0 +1,128 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url("images/ceu.jpg");
+    background-size: cover;
+
+
+}
+
+a{
+
+	color:white;
+}
+
+a:hover{
+
+	text-decoration: none;
+	color: yellow;
+}
+
+.inputs h1{
+
+
+   color: white;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 30px;
+}
+
+.inputs{
+
+   width: 500px;
+   height: 300px;
+   padding: 40px;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: black;
+   text-align: center;
+   border-radius: 15px;
+   border-style: solid;
+   border-color: white;
+
+
+}
+
+.inputs input[type="text"], .inputs input[type="password"]{
+
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;;
+	color: white;
+	border:1.5px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	transition: 0.30s;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+
+}
+
+.inputs input[type="text"]:focus, .inputs input[type="password"]:focus{
+
+
+width: 280px;
+border-color: brown;
+
+
+
+}
+
+.inputs input[type="submit"] {
+
+    border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	border:1.5px solid white;
+	outline: none;
+	transition: 0.30s;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+.inputs input[type="submit"]:hover {
+
+  background: yellow;
+
+	}
+
+	#inscrever{
+
+		background: none;
+		display: block;
+		margin: 20px auto;
+		text-align: center;
+		color:white;
+		outline:none;
+		transition: 0.30s;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 16px;
+		cursor:pointer;
+		font-weight: 300;
+	}
+
+	footer{
+
+		color:white;
+		text-align: center;
+        transform: translateY(32em);
+
+	}
+
+	
+
+
+

@@ -13,6 +13,8 @@ body{
    border-top-color: white;
    border-width: thin;
 
+   margin: 0;
+
 }
 
 
@@ -50,6 +52,7 @@ a:hover {
     border-radius: 5px;
     padding : 40px;
     box-shadow: 1px 1px rgb(230,230,230);
+    text-shadow: 1px 1px 5px black
 }
 
 
