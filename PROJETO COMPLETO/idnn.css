@@ -1,0 +1,149 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    background-image: url("images/shopping.jpg");
+    background-size: cover;
+
+
+}
+
+.inputs h1{
+
+     color: white;
+     text-transform: uppercase;
+     font-weight: 300;
+     font-size: 30px;
+
+}
+
+.inputs{
+
+	width: 800px;
+	height: 500px;
+	padding: 40px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	background: black;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	border-color: 
+	border-radius: 15px;
+	border-style: solid;
+	border-color: white;
+
+}
+
+.inputs input[type="text"]{
+
+	border:0;
+	background: white;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: black;
+	border:1.5px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	transition: 0.30s;
+	font:arial;
+	font-size: 14px;
+
+}
+
+.inputs input[type="text"]:focus,{
+
+
+width: 280px;
+border-color: yellow;
+
+
+
+}
+
+.inputs input[type="submit"] {
+
+    border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	border:1.5px solid white;
+	outline: none;
+	transition: 0.30s;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+	
+
+	}
+
+	.inputs input[type="submit"]:hover {
+
+  background: yellow;
+
+	}
+
+	.select {
+
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.select select {
+
+		text-align: center;
+		width: 250px;
+		height: 75px;
+		border:0;
+		background: white;
+		margin: 20px auto;
+		color: black;
+		border:1.5px solid white;
+		outline: none;
+		transition: 0.30s;
+	    font: arial;
+	    font-size: 14px;
+
+     }
+
+     select{
+
+		width: 100%;
+		overflow: hidden;
+	}
+
+	select {
+
+		text-align: center;
+		width: 250px;
+		height: 75px;
+		border:0;
+		background: white;
+		margin: 20px auto;
+		color: black;
+		border:1.5px solid white;
+		outline: none;
+		transition: 0.30s;
+	    font: arial;
+	    font-size: 14px;
+
+     }
+
+footer {
+
+		color:white;
+		text-align: center;
+        transform: translateY(40em);
+
+	}
+a{
+
+		color: white;
+		text-align: center;
+	}
